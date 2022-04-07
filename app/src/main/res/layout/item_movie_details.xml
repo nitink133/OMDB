@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margin_small">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/margin_extreme_large"
+        android:background="@drawable/background_round_grey"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/view_margin_movie_list_content_from_image"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_name"
+                style="@style/MediumText.Medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/margin_regular"
+                android:textAlignment="center"
+                android:maxLines="3"
+                android:ellipsize="end"
+                android:text="@string/dummy_small_text" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_small"
+                android:padding="@dimen/margin_extra_small">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    style="@style/RegularText.Regular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/lbl_released_with_colon"
+                    android:textColor="@color/hint_text_color" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tv_released"
+                    style="@style/RegularText.Regular"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="@dimen/margin_regular"
+                    android:layout_weight="1"
+                    android:maxLines="1"
+                    android:text="@string/dummy_regular_text" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/margin_extra_small">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    style="@style/RegularText.Regular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/lbl_type_with_colon"
+                    android:textColor="@color/hint_text_color" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tv_type"
+                    style="@style/RegularText.Regular"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="@dimen/margin_regular"
+                    android:layout_weight="1"
+                    android:maxLines="1"
+                    android:text="@string/dummy_regular_text" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/margin_extra_small">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    style="@style/RegularText.Regular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/lbl_imdb_id_with_colon"
+                    android:textColor="@color/hint_text_color" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tv_imdb_id"
+                    style="@style/RegularText.Regular"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="@dimen/margin_regular"
+                    android:layout_weight="1"
+                    android:maxLines="1"
+                    android:text="@string/dummy_regular_text" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:layout_width="@dimen/view_width_movie_list_image"
+        android:layout_height="@dimen/view_height_movie_list_image"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="@dimen/margin_small"
+        android:layout_marginTop="@dimen/margin_regular"
+        android:layout_marginEnd="@dimen/margin_small"
+        android:layout_marginBottom="@dimen/margin_regular"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_logo"
+            android:layout_width="@dimen/view_width_movie_list_image"
+            android:padding="2dp"
+            android:scaleType="centerCrop"
+            android:cropToPadding="true"
+            android:background="@drawable/background_image"
+            android:layout_height="@dimen/view_height_movie_list_image"
+            android:src="@mipmap/ic_launcher" />
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            style="@style/PrimaryProgressBar"
+            android:layout_width="@dimen/small_icon_size"
+            android:layout_height="@dimen/small_icon_size"
+            android:layout_gravity="center"
+            android:visibility="gone" />
+    </FrameLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

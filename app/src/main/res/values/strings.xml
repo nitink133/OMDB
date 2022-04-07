@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">OMDB</string>
+    <string name="msg_please_press_again_to_exit">Please click BACK again to exit.</string>
+
+    <string name="err_something_went_wrong">Something went wrong!</string>
+    <string name="err_no_internet_network">No Internet Connection</string>
+    <string name="lbl_try_after_reloading_the_page">Try reloading the page. We are working hard to fix it for you.</string>
+
+
+    <string name="cta_go_back">Go Back</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="lbl_released_with_colon">Released: </string>
+    <string name="lbl_type_with_colon">Type: </string>
+    <string name="lbl_imdb_id_with_colon">IMDB Id: </string>
+    <string name="msg_no_data_found">No data found!</string>
+    <string name="lbl_search">Search</string>
+    <string name="cta_retry">Retry</string>
+    <string name="lbl_rating_with_colon">Rating: </string>
+    <string name="lbl_genre_with_colon">Genre: </string>
+    <string name="lbl_language_with_colon">Language: </string>
+
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size_ultra_small">8sp</dimen>
+    <dimen name="text_size_extra_small">10sp</dimen>
+    <dimen name="text_size_small">12sp</dimen>
+    <dimen name="text_size_regular">14sp</dimen>
+    <dimen name="text_size_medium">16sp</dimen>
+    <dimen name="text_size_medium_large">18sp</dimen>
+    <dimen name="text_size_large">20sp</dimen>
+    <dimen name="text_size_extra_large">24sp</dimen>
+    <dimen name="text_size_ultra_large">30sp</dimen>
+
+    <dimen name="default_icon_size">24dp</dimen>
+    <dimen name="large_icon_size">30dp</dimen>
+    <dimen name="small_icon_size">16dp</dimen>
+    <dimen name="extra_large_icon_size">36dp</dimen>
+    <dimen name="margin_extra_small">4dp</dimen>
+    <dimen name="margin_ultra_small">2dp</dimen>
+    <dimen name="margin_extreme_small">.30dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_regular">12dp</dimen>
+    <dimen name="margin_large">16dp</dimen>
+    <dimen name="margin_medium_large">18dp</dimen>
+    <dimen name="margin_extra_large">22dp</dimen>
+    <dimen name="margin_ultra_large">30dp</dimen>
+    <dimen name="margin_extreme_large">60dp</dimen>
+
+    <dimen name="zero">0dp</dimen>
+
+    <dimen name="radius_extra_small">1dp</dimen>
+    <dimen name="radius_small">2dp</dimen>
+    <dimen name="radius_regular">4dp</dimen>
+    <dimen name="radius_large">8dp</dimen>
+    <dimen name="radius_extra_large">18dp</dimen>
+    <dimen name="radius_ultra_large">22dp</dimen>
+    <dimen name="radius_extreme_large">44dp</dimen>
+
+    <dimen name="elevation_ultra_small">0.1dp</dimen>
+    <dimen name="elevation_extra_small">0.25dp</dimen>
+    <dimen name="elevation_small">0.5dp</dimen>
+    <dimen name="elevation_regular">1dp</dimen>
+    <dimen name="elevation_medium">2dp</dimen>
+    <dimen name="elevation_large">4dp</dimen>
+
+    <dimen name="min_button_height">48dp</dimen>
+    <dimen name="min_small_button_height">40dp</dimen>
+
+    <dimen name="min_height_error_image">250dp</dimen>
+    <dimen name="min_width_error_image">250dp</dimen>
+
+    <dimen name="view_height_movie_list_image">220dp</dimen>
+    <dimen name="view_width_movie_list_image">150dp</dimen>
+    <dimen name="view_margin_movie_list_content_from_image">166dp</dimen>
+</resources>

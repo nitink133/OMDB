@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+
+    <androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/iv_error_image"
+                android:layout_width="@dimen/min_width_error_image"
+                android:layout_height="@dimen/min_width_error_image"
+                android:src="@drawable/ic_error_500" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_error"
+                style="@style/RegularText.ExtraLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_large"
+                android:layout_marginTop="@dimen/margin_extra_large"
+                android:layout_marginEnd="@dimen/margin_large"
+                android:maxLines="5"
+                android:text="@string/err_something_went_wrong"
+                android:textAlignment="center" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_retry"
+                style="@style/RegularText.Large"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_large"
+                android:layout_marginTop="@dimen/margin_regular"
+                android:layout_marginEnd="@dimen/margin_large"
+                android:text="@string/lbl_try_after_reloading_the_page"
+                android:textAlignment="center"
+                android:textColor="@color/hint_text_color" />
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_go_back"
+                style="@style/PrimaryButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_large"
+                android:layout_marginTop="@dimen/margin_extreme_large"
+                android:layout_marginEnd="@dimen/margin_large"
+                android:layout_marginBottom="@dimen/margin_extra_large"
+                android:paddingStart="@dimen/margin_extreme_large"
+                android:paddingEnd="@dimen/margin_extreme_large"
+                android:text="@string/cta_go_back" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</layout>
